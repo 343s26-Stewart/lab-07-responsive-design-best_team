@@ -1,0 +1,15 @@
+@media (width <= 374px) {
+    .main-head, .side, .ad, .main-footer {
+        display: none;
+    }
+    .wrapper {
+        .content {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .main-nav {
+            grid-column: 1;
+            grid-row: 2;
+        }
+    }
+}
