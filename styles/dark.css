@@ -1,0 +1,14 @@
+/* dark color scheme */
+
+.darkMode{
+    background-color: black;
+    color: white;
+}
+
+.lightMode {
+    background-color: white;
+    color: black;
+}
+
+
+
