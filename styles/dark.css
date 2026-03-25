@@ -1,14 +1,35 @@
 /* dark color scheme */
 
-.darkMode{
-    background-color: black;
-    color: white;
+@media (prefers-color-scheme: dark) {
+    .darkMode{
+        background-color: black;
+        color: white;
+    }
+    body {
+        background-color: black;
+        color: white;
+    }
+    .lightMode {
+        background-color: white;
+        color: black;
+    }
 }
 
-.lightMode {
-    background-color: white;
-    color: black;
+@media (prefers-color-scheme: light) {
+    .lightMode {
+        background-color: white;
+        color: black;
+    }
+    .darkMode{
+        background-color: black;
+        color: white;
+    }
+    body {
+        background-color: white;
+        color: black;
+    }
 }
+
 
 
 

@@ -5,13 +5,6 @@ function main() {
     let lightMode = navItems[2];
     let body = document.querySelector('body');
 
-    // const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    // if (prefersDarkMode) {
-    //     localStorage.setItem("Dark");
-    // } else {
-    //     localStorage.setItem("Light");
-    // }
-
     OSDefault.addEventListener('click', ()=>{
         const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
         if (prefersDarkMode) {
